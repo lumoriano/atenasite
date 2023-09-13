@@ -1,0 +1,310 @@
+@font-face {
+    font-family: Porter ;
+    src: url(../fontes/porter-sans-block/porter-sans-inline-block.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: Permanent;
+    src: url(../fontes/Permanent_Marker/PermanentMarker-Regular.ttf) format(truetype);
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+#session{
+    display: flex;
+    width: 100vw;
+}
+
+
+
+#barra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(207, 181, 59, 1); 
+    height: 100vh;
+    width: 20vw;
+    border: 1px solid #000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-image: url(../images/AtenasLugar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80vw;
+    height: 100vh;
+}
+   
+#atenaimg{
+    background-image:url(../images/DeusaAtena.png) ;
+    background-repeat: no-repeat;
+    margin-top: 120px;
+    margin-right: 50px;
+    width:495px;
+    height: 527px;
+}
+
+#elipse{
+    width: 170px;
+    height: 163px;
+    margin-top: 50px;
+}
+
+.linksdeusa{
+    color: #FFF;
+    margin-bottom: 65px;
+    margin-top: 65px;
+} 
+
+.linkwhite{
+    color: white;
+}
+
+a{
+    font-family: Permanent;
+    text-decoration: none;
+   
+}
+
+.linkmy{
+    color: #FFF;
+}
+
+#resumo{   
+    background-image:url(../images/xadrezfundo.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    border: 1px solid #000;
+}
+
+.positiontitulo{
+    color: rgba(148, 7, 7, 0.94);
+    margin-left: 40px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.topicos{
+    margin-left: 20px;
+}
+
+.paragrafo{
+    margin-right: 40px;
+}
+
+.topicos2{
+    margin-left: 20px;
+}
+
+#atenaresumo{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+
+#information{
+    margin-left: 60px;
+    font-size: 30px;
+}
+
+.space{
+    margin-top: 100px;
+    color: black;
+}
+
+#family{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+#imagefamily{
+    background-image:url(../images/Atenafamily.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid #000;
+}
+
+.positiontitulo2{
+    color: rgba(148, 7, 7, 0.94);
+    font-size: 24px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+#indicacoesatena{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+#indicacoes{
+    background-image:url(../images/xadrezfundo.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    border: 1px solid #000;
+}
+
+.positiontitulo3{
+    color: rgba(148, 7, 7, 0.94);
+    font-size: 30px;
+    margin-left: 32px;
+    margin-top: 45px;
+}
+
+.positiontitulo5{
+    color: rgba(148, 7, 7, 0.94);
+    font-size: 30px;
+    margin-left: 32px;
+    margin-top: 25px;
+}
+
+.indication{
+    margin-left: 60px;
+    font-size: 25px;
+}
+
+.space2{
+    margin-top: 25px;
+    color: black;
+}
+
+.space3{
+    margin-top: 40px;
+    color: black;
+}
+
+ul{
+    font-family: Permanent;
+    font-size: 24px;
+}
+
+h1{
+    font-family: Porter;
+    font-size: 35px;
+    width: 494px;
+    height: 120px;
+    margin-top: 35px;
+    text-align: center;
+    color: rgba(148, 7, 7, 0.94);
+}
+
+p{
+    font-family: Permanent;
+    font-size: 22px;
+
+}
+
+h2{
+    font-family: Porter;
+}
+
+#myperfil{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid #000;
+}
+
+#midperfil{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(148, 7, 7, 0.94) ;
+    width: 100vw;
+    height: 50vh;
+}
+
+#myimage{
+    display: flex;
+    align-self: center;
+    margin-bottom: 40px;
+    width: 310px;
+    height: 290px;
+}
+   
+#atenaimg2{
+    width: 180px;
+    height: 180px;
+    margin-top: 130px;
+}
+
+#corujaimg{
+    width: 180px;
+    height: 180px;
+    margin-top: 130px;
+}
+
+#lowperfil{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 50vh;
+}
+
+.positiontitulo4{
+    align-self: center;
+    color: rgba(207, 181, 59, 1); ;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+#mytext{
+    align-self: center;
+    margin-top: 45px;
+    width: 509px;
+    height: 145px;
+}
+
+#redessocias{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+#linkredes{
+    display: flex;
+    
+}
+
+.positionyoutube{
+    margin-left: 40px;
+}
+
+.positioninstagram{
+    margin-left: 20px;
+}
+
+
+
+
+
